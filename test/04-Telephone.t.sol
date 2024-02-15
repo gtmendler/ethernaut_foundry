@@ -7,7 +7,7 @@ import "forge-std/Test.sol";
 import "../src/04-Telephone/TelephoneFactory.sol";
 import "../src/Ethernaut.sol";
 
-contract FallbackTest is Test {
+contract TelephoneTest is Test {
     Ethernaut ethernaut;
     address eoaAddress = address(1337);
 

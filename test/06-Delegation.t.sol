@@ -7,7 +7,7 @@ import "forge-std/Test.sol";
 import "../src/06-Delegation/DelegationFactory.sol";
 import "../src/Ethernaut.sol";
 
-contract FallbackTest is Test {
+contract DelegationTest is Test {
     Ethernaut ethernaut;
     address eoaAddress = address(1337);
 

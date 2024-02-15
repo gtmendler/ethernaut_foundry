@@ -7,7 +7,7 @@ import "forge-std/Test.sol";
 import "../src/03-CoinFlip/CoinFlipFactory.sol";
 import "../src/Ethernaut.sol";
 
-contract FallbackTest is Test {
+contract CoinFlipTest is Test {
     Ethernaut ethernaut;
     address eoaAddress = address(1337);
 

@@ -7,7 +7,7 @@ import "forge-std/Test.sol";
 import "../src/05-Token/TokenFactory.sol";
 import "../src/Ethernaut.sol";
 
-contract FallbackTest is Test {
+contract TokenTest is Test {
     Ethernaut ethernaut;
     address eoaAddress = address(1337);
 
@@ -30,7 +30,7 @@ contract FallbackTest is Test {
         //////////////////
         // LEVEL ATTACK //
         //////////////////
-        
+
         level.transfer(address(0), 21);
 
         //////////////////////

@@ -7,7 +7,7 @@ import "forge-std/Test.sol";
 import "../src/02-Fallout/FalloutFactory.sol";
 import "../src/Ethernaut.sol";
 
-contract FallbackTest is Test {
+contract FalloutTest is Test {
     Ethernaut ethernaut;
     address eoaAddress = address(1337);
 
