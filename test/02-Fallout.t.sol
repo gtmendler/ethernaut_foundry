@@ -16,7 +16,7 @@ contract FallbackTest is Test {
         vm.deal(eoaAddress, 1 ether);
     }
 
-    function testFallbackHack() public {
+    function testFalloutHack() public {
         /////////////////
         // LEVEL SETUP //
         /////////////////
